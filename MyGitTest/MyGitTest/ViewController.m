@@ -22,6 +22,7 @@
     NSLog(@"Something has changed");
     
     NSLog(@"branch1");
+    NSLog(@"change at branch2");
     
 }
 

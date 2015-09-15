@@ -24,6 +24,9 @@
     NSLog(@"branch1");
     NSLog(@"change at branch2");
     
+    
+    NSLog(@"delete branch1 and create branch1 again");
+    
 }
 
 - (void)didReceiveMemoryWarning {

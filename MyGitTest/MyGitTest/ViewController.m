@@ -21,6 +21,8 @@
     
     NSLog(@"Something has changed");
     
+    NSLog(@"change at branch2");
+    
 }
 
 - (void)didReceiveMemoryWarning {

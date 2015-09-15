@@ -14,6 +14,7 @@
 		EEE3F0AD1BA7E6D900D56EC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE3F0AC1BA7E6D900D56EC6 /* Images.xcassets */; };
 		EEE3F0B01BA7E6D900D56EC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEE3F0AE1BA7E6D900D56EC6 /* LaunchScreen.xib */; };
 		EEE3F0BC1BA7E6D900D56EC6 /* MyGitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE3F0BB1BA7E6D900D56EC6 /* MyGitTestTests.m */; };
+		EEE3F0CA1BA7F88700D56EC6 /* Function2.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE3F0C91BA7F88700D56EC6 /* Function2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		EEE3F0B51BA7E6D900D56EC6 /* MyGitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE3F0BA1BA7E6D900D56EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEE3F0BB1BA7E6D900D56EC6 /* MyGitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyGitTestTests.m; sourceTree = "<group>"; };
+		EEE3F0C81BA7F88700D56EC6 /* Function2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Function2.h; sourceTree = "<group>"; };
+		EEE3F0C91BA7F88700D56EC6 /* Function2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Function2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		EEE3F0931BA7E6D900D56EC6 = {
 			isa = PBXGroup;
 			children = (
+				EEE3F0C81BA7F88700D56EC6 /* Function2.h */,
+				EEE3F0C91BA7F88700D56EC6 /* Function2.m */,
 				EEE3F09E1BA7E6D900D56EC6 /* MyGitTest */,
 				EEE3F0B81BA7E6D900D56EC6 /* MyGitTestTests */,
 				EEE3F09D1BA7E6D900D56EC6 /* Products */,
@@ -221,6 +226,7 @@
 			files = (
 				EEE3F0A81BA7E6D900D56EC6 /* ViewController.m in Sources */,
 				EEE3F0A51BA7E6D900D56EC6 /* AppDelegate.m in Sources */,
+				EEE3F0CA1BA7F88700D56EC6 /* Function2.m in Sources */,
 				EEE3F0A21BA7E6D900D56EC6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +424,7 @@
 				EEE3F0C11BA7E6D900D56EC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEE3F0C21BA7E6D900D56EC6 /* Build configuration list for PBXNativeTarget "MyGitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				EEE3F0C41BA7E6D900D56EC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

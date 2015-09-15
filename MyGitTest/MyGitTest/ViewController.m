@@ -34,6 +34,7 @@
     
     NSLog(@"creat branch4 from branch2");
     
+    [Function1 function1];
 }
 
 - (void)didReceiveMemoryWarning {

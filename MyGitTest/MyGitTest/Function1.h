@@ -1,16 +1,13 @@
 //
-//  ViewController.h
+//  Function1.h
 //  MyGitTest
 //
 //  Created by liyj on 15/9/15.
 //  Copyright (c) 2015年 liyj. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "Function1.h"
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
-
-
+@interface Function1 : NSObject
++ (void)function1;
 @end
-

@@ -23,6 +23,8 @@
     
     NSLog(@"change at branch2");
     
+    NSLog(@"creat branch4 from branch2");
+    
 }
 
 - (void)didReceiveMemoryWarning {

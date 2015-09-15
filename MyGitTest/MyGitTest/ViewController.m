@@ -26,6 +26,7 @@
     
     
     NSLog(@"delete branch1 and create branch1 again");
+    NSLog(@"go fix branch1");
     
 }
 
